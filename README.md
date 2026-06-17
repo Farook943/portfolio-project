@@ -1,8 +1,19 @@
-# portfolio-project
+# Farook Developer Portfolio
 
-Hi, I'm Shaik Farook.
+A single-page AI futuristic portfolio website for Farook, a Full Stack Developer.
 
-## About Me
-- Learning programming
-- Interested in web development
-- Building projects on GitHub
+## Tech
+
+- HTML
+- CSS
+- JavaScript
+
+## Run
+
+Open `index.html` in a browser.
+
+## Customize
+
+- Update contact links in `index.html`.
+- Replace project cards in the `#projects` section.
+- Edit colors and layout in `styles.css`.

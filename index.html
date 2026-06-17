@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Farook - Full Stack Developer portfolio built with an AI futuristic theme."
+    />
+    <title>Farook | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="neural-canvas" id="neuralCanvas" aria-hidden="true"></canvas>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Farook home">
+        <span class="brand-mark">F</span>
+        <span>Farook</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <img class="hero-image" src="assets/ai-hero.png" alt="" aria-hidden="true" />
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Full Stack Developer</p>
+          <h1>Farook</h1>
+          <p class="hero-copy">
+            I build fast, useful web experiences with Java, HTML, CSS, and MySQL,
+            blending clean interfaces with reliable backend logic.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Work</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Developer snapshot">
+          <div>
+            <span class="panel-label">Stack</span>
+            <strong>Java + MySQL</strong>
+          </div>
+          <div>
+            <span class="panel-label">Frontend</span>
+            <strong>HTML + CSS</strong>
+          </div>
+          <div>
+            <span class="panel-label">Focus</span>
+            <strong>Full Stack Apps</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Building practical systems with a futuristic edge.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I am Farook, a Full Stack Developer focused on creating complete web
+            solutions from the user interface to the database. I enjoy turning
+            ideas into responsive pages, structured backend flows, and reliable
+            data-driven features.
+          </p>
+          <div class="metrics">
+            <div class="metric">
+              <strong>04</strong>
+              <span>Core skills</span>
+            </div>
+            <div class="metric">
+              <strong>01</strong>
+              <span>Complete stack</span>
+            </div>
+            <div class="metric">
+              <strong>AI</strong>
+              <span>Futuristic theme</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools I use to ship clean web applications.</h2>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card">
+            <span>01</span>
+            <h3>Java</h3>
+            <p>Backend logic, object-oriented programming, APIs, and application structure.</p>
+          </article>
+          <article class="skill-card">
+            <span>02</span>
+            <h3>HTML</h3>
+            <p>Semantic pages, accessible structure, and clean content hierarchy.</p>
+          </article>
+          <article class="skill-card">
+            <span>03</span>
+            <h3>CSS</h3>
+            <p>Responsive layouts, polished interfaces, animations, and visual systems.</p>
+          </article>
+          <article class="skill-card">
+            <span>04</span>
+            <h3>MySQL</h3>
+            <p>Relational data modeling, queries, tables, and database-backed features.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Featured portfolio concepts.</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-code">JSP</div>
+            <div>
+              <h3>Student Management System</h3>
+              <p>
+                A Java and MySQL web app concept for managing students, courses,
+                records, and search workflows.
+              </p>
+              <span>Java / MySQL / HTML / CSS</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-code">SQL</div>
+            <div>
+              <h3>Inventory Dashboard</h3>
+              <p>
+                A responsive admin dashboard concept for stock tracking,
+                reporting, categories, and database updates.
+              </p>
+              <span>HTML / CSS / MySQL</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-code">WEB</div>
+            <div>
+              <h3>Personal Portfolio</h3>
+              <p>
+                A modern single-page portfolio with smooth navigation, animated
+                visuals, and a futuristic presentation.
+              </p>
+              <span>HTML / CSS / JavaScript</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-band">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let us build something useful.</h2>
+            <p>
+              Available for web development projects, full stack learning work,
+              and portfolio-ready application builds.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:farook@example.com">Email Farook</a>
+            <a class="button secondary" href="tel:+910000000000">Call</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Farook</span>
+      <span>Full Stack Developer</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
