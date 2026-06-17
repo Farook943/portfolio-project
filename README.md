@@ -1,2 +1,2 @@
 # portfolio-project
-this is a portfolio project.
+This is a portfolio project.
